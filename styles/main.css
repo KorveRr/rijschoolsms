@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* CSS Document 
+#FF9900	//Yellow
+#424242	//Black
+#E9E9E9	//SoftWhite
+#BCBCBC	//Gray
+#3299BB	//Blue
+
+*/
+
+body,html{
+	width: 		100%;
+	margin: 	0 auto;
+	padding: 	0;
+	background:	#E9E9E9;
+	font-family: 'Open Sans', sans-serif;
+	color:#8f8f8f;
+}
+
+h1{
+	font-size: 	12px;
+	color: 		#BCBCBC;
+	margin-top: 65px;
+	float:		left;
+}
+
+.text{
+	float:		right;
+	font-size: 	12px;
+	margin: 	45px 5px 0 0;
+}
+
+.social{
+	width:		32px;
+	height:		32px;
+	background: url(http://127.0.0.1/RijschoolSMS/images/social/facebook.png);
+	float:		right;
+	margin: 	50px 5px 0 0;
+}
+
+.social:hover{
+	background: url(http://127.0.0.1/RijschoolSMS/images/social/facebook.png) 0px -32px no-repeat;
+	-webkit-transition: 1s;
+}
+
+#container {
+	background-color: #FFF;
+	width:		1024px;
+	height:		auto;
+	margin:		0 auto;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	overflow: auto;
+	overflow: hidden;
+	-moz-box-shadow: 0 0 2px 2px #888;
+	-webkit-box-shadow: 0 0 2px 2px#888;
+	box-shadow: 0 0 2px 2px #888;
+}
+
+#banner{
+	width:		1024px;
+	height:		140px;
+}
+
+#bannerxy{
+	width:		260px;
+	height:		140px;
+	float:		right;
+}
+
+.banner{
+	width:		350px;
+	height:		150px;
+}
+
+#logo{
+	width:		280px;
+	height:		50px;
+	margin: 	40px 0 0 0;
+	background: url(http://127.0.0.1/RijschoolSMS/images/logo/logo2.png);
+	float: 		left;
+}
+
+#nav{
+	height:		50px;
+	width:		1024px;
+	background:	#303030;
+}
+
+ul{
+	float: 		left;
+	padding:	20px 20px 0 20px;
+	list-style: none;
+	width: 		auto;
+	color:		#E9E9E9;
+	height:		30px;
+	font-size: 	14px;
+}
+
+ul:hover{
+	background:	#FF9900;
+	-webkit-transition: 1s;
+}
+
+li{
+	float:		left;
+	list-style: none;
+}
+
+#intro{
+	height:		auto;
+	width: 		1024px;
+	font-size:	12px;
+	margin:		5px 0 0 5px;
+	float: left;
+}
+
+#introimg{
+	width:		100%;
+	height: 	100%;
+	max-width: 	300px;
+	max-height:	150px;
+	display: 	inherit;
+	float: 		right;
+}
+
+.xy{
+	height:		200px;
+	width:		501px;
+	float: 		left;
+	font-size: 	12px;
+	margin:		5px 10px 0 5px;
+}
+
+.xyimg{
+	height:		14px;
+	width:		500px;
+	float: 		left;
+	margin-bottom: 5px;
+}
+
+.xy:last-child{
+	margin:		5px 0 0 0;
+}
+ 
+

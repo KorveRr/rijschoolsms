@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+form{
+	font-size: 12px;
+	margin:		5px 0 5px 5px;
+	width: 500px;
+	float: left;
+}
+
+.form{
+	float:right;
+	margin-right: 150px;
+}
+
+#formright{
+	width:		500px;
+	float: left;
+	font-size: 12px;
+}
+
+.faq{
+	width: 502px;
+	height:	auto;
+	float: left;
+	padding: 5px 5px 5px 5px;
+	font-size: 12px;
+}
+
+strong{
+	font-size: 14px;
+}
+
+textarea{
+	max-width:490px;
+	width:490px;
+	min-height: 400px;
+	height:auto;
+}
