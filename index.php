@@ -29,6 +29,14 @@ error_reporting(-1);
 			$page = 'contact';
 		break;
 
+		case 'prijzen':
+			$page = 'prijzen';
+		break;
+
+		case 'links':
+			$page = 'links';
+		break;
+
 		case 'admin':
 			$page = 'admin';
 		break;

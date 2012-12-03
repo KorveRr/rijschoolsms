@@ -17,17 +17,25 @@ $text2 = $row['vraag1_text'];
 $date1 = date("d-m-Y", strtotime( $row['vraag_date']));
 $date2 = date("d-m-Y", strtotime( $row['vraag1_date']));
 
-$faq1 = '<form action="faq" method="post"> 
+
+if(isset($_SESSION['username']))
+{
+	$faq1 = '<form action="faq" method="post"> 
 			<textarea name="text">'.$text1.'</textarea>
 			<input type="submit" name="text1" value="Edit">
-</form>
-';
+	</form>';
 
-$faq2= '<form action="faq" method="post"> 
-			<textarea name="text">'.$text2.'</textarea>
-			<input type="submit" name="submit" value="Edit">
-</form>
-';
+	$faq2= '<form action="faq" method="post"> 
+				<textarea name="text">'.$text2.'</textarea>
+				<input type="submit" name="text2" value="Edit">
+	</form>';	
+}
+
+if(!isset($_SESSION['username']))
+{
+	$faq1 = $tr->blogPost($text1);
+	$faq2 =	$tr->blogPost($text2);
+}
 
 if(isset($_POST['text1'])){
 

@@ -31,12 +31,12 @@ $content = '
 			<div id="nav">
 				<li>
 					<a href="'.$root.'home"><ul>Home</ul></a>
-					<a href="'.$root.'auto"><ul>Auto</ul></a>
+					<a href="'.$root.'"><ul>Auto</ul></a>
 					<a href="'.$root.'inschrijven"><ul>Inschrijven</ul></a>
-					<a href="#"><ul>Veel gestelde vragen</ul></a>
-					<a href="#"><ul>Prijzen</ul></a>
-					<a href="#"><ul>Links</ul></a>
-					<a href="#"><ul>Contact</ul></a>
+					<a href="'.$root.'faq"><ul>Veel gestelde vragen</ul></a>
+					<a href="'.$root.'prijzen"><ul>Prijzen</ul></a>
+					<a href="'.$root.'links"><ul>Links</ul></a>
+					<a href="'.$root.'contact"><ul>Contact</ul></a>
 				</li>
 			</div>
 			<div id="intro">

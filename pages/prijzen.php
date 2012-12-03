@@ -1,6 +1,7 @@
 <?php
 require 'classes/root.php';
-require 'classes/homeEdit.php';
+require 'classes/connect.php';
+require 'classes/prijsEdit.php';
 
 $content = '
 <!DOCTYPE html>
@@ -9,8 +10,9 @@ $content = '
 	<meta charset="utf-8">
 	<title>RijschoolSMS - Slaag Met Succes</title>
 	<meta name="author" content="Jesse Korver"/>
-	<link rel="stylesheet" media="screen" href="'.$root.'/styles/reset.css" >
-	<link rel="stylesheet" media="screen" href="'.$root.'/styles/main.css" >
+	<link rel="stylesheet" media="screen" href="'.$root.'styles/reset.css" >
+	<link rel="stylesheet" media="screen" href="'.$root.'styles/main.css" >
+	<link rel="stylesheet" media="screen" href="'.$root.'styles/prijzen.css" >
 	<link href=\'http://fonts.googleapis.com/css?family=Open+Sans\' rel=\'stylesheet\' type=\'text/css\'>
 
 </head>
@@ -38,19 +40,21 @@ $content = '
 					<a href="'.$root.'contact"><ul>Contact</ul></a>
 				</li>
 			</div>
-			<div id="intro"><img id="introimg" src="'.$root.'images/rijschool/bovag.jpg"></img>
-				'.text(1).'
-			</div>
-			<div id="xyz">
-				<div class="xy"><img class="xyimg" src="http://127.0.0.1/RijschoolSMS/images/rijschool/todrive.png" />
-					'.text(2).'
+			<div id="intro">
+				<div class="finan">
+					RijschoolSMS<br />
+					Julianaplein 8<br />
+					1623 JM Hoorn<br />
 				</div>
-				<div class="xy"><img class="xyimg" src="http://127.0.0.1/RijschoolSMS/images/rijschool/actie.png" />
-					'.text(3).'
+				<div class="finan">
+					ING bank nr. 5623438<br />
+					Kvk Hoorn nr. 50319264<br />
+					BTW-nr. 88375407<br />
 				</div>
-			</div>
-			<div class="plus">
-				'.text(4).'
+				<div id="prijzen">
+				<h2>Prijslijst vanaf 1 Januari 2013:</h2>
+				'.$prijs.'
+				</div>
 			</div>
 		</div>
     </body>
